@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guessthatprhase.presentation.FrmRegistrarUsuario">
+   <children>
+      <Button fx:id="btnRegistrarUsuario" layoutX="250.0" layoutY="275.0" mnemonicParsing="false" onAction="#registrarUsuario" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-size: 14px;" text="Sign in" />
+      <Label fx:id="lblMensaje" alignment="CENTER" layoutX="147.0" layoutY="79.0" prefHeight="18.0" prefWidth="310.0" textAlignment="CENTER" textFill="RED" />
+      <TextField fx:id="txtName" layoutX="226.0" layoutY="122.0" />
+      <TextField fx:id="txtEmail" layoutX="226.0" layoutY="175.0" />
+      <TextField fx:id="txtPassword" layoutX="227.0" layoutY="227.0" />
+      <Label layoutX="225.0" layoutY="105.0" text="Name" />
+      <Label layoutX="226.0" layoutY="158.0" text="Email" />
+      <Label layoutX="227.0" layoutY="210.0" text="Password" />
+      <Label fx:id="lblBien" alignment="CENTER" layoutX="205.0" layoutY="349.0" prefHeight="18.0" prefWidth="191.0" />
+      <Label alignment="CENTER" layoutX="222.0" layoutY="34.0" prefHeight="39.0" prefWidth="149.0" style="-fx-border-radius: 10px; -fx-background-radius: 10px; -fx-text-fill: #002933;" text="Register">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guessthatprhase.presentation.FrmEstadisticas">
+   <children>
+      <Label layoutX="55.0" layoutY="69.0" style="-fx-text-fill: #002933;" text="Score">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="134.0" style="-fx-text-fill: #002933;" text="Average Time (S)">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="192.0" style="-fx-text-fill: #002933;" text="Wins">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="253.0" style="-fx-text-fill: #002933;" text="Defeats">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="lblPuntuacion" layoutX="300.0" layoutY="69.0" prefHeight="30.0" prefWidth="90.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="lblTiempo" layoutX="303.0" layoutY="134.0" prefHeight="30.0" prefWidth="99.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="lblVictorias" layoutX="303.0" layoutY="192.0" prefHeight="30.0" prefWidth="59.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="lblDerrotas" layoutX="300.0" layoutY="253.0" prefHeight="30.0" prefWidth="59.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

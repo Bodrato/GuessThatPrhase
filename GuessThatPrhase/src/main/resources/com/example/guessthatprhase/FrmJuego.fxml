@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guessthatprhase.presentation.FrmJuego">
+   <children>
+      <Label fx:id="lblFraseSecreta" alignment="CENTER" layoutX="7.0" layoutY="127.0" prefHeight="30.0" prefWidth="689.0" style="-fx-text-fill: #002933;" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="133.0" layoutY="237.0" style="-fx-text-fill: #002933;" text="Enter a letter">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="421.0" layoutY="237.0" prefHeight="30.0" prefWidth="151.0" style="-fx-text-fill: #002933;" text="Enter the phrase">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="btnEnviarLetra" layoutX="163.0" layoutY="327.0" mnemonicParsing="false" onAction="#pulsarBtnLetra" prefHeight="26.0" prefWidth="55.0" style="-fx-font-size: 15px; -fx-background-color: green; -fx-text-fill: white;" text="Send" />
+      <Button fx:id="btnEnviarFrase" layoutX="470.0" layoutY="327.0" mnemonicParsing="false" onAction="#pulsarBtnFrase" style="-fx-font-size: 15px; -fx-background-color: green; -fx-text-fill: white;" text="Send" />
+      <TextField fx:id="txtLetra" layoutX="163.0" layoutY="276.0" prefHeight="26.0" prefWidth="55.0" />
+      <TextField fx:id="txtFrase" layoutX="370.0" layoutY="276.0" prefHeight="26.0" prefWidth="253.0" />
+      <Label fx:id="lblTurno" layoutX="96.0" layoutY="66.0" prefHeight="17.0" prefWidth="26.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="67.0" text="Turno">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAutor" alignment="CENTER" layoutX="7.0" layoutY="185.0" prefHeight="30.0" prefWidth="689.0" style="-fx-text-fill: #002933;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
